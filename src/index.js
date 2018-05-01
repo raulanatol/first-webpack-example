@@ -1,3 +1,5 @@
-import bar from './bar';
+import bar, { defaultParameters } from './bar';
 
 bar();
+
+defaultParameters(12);
